@@ -112,7 +112,7 @@ spec:
     spec:
       containers:
       - name: notification
-        image: @registryHostAndRepo@/notification:latest
+        image: bluedemocluster.icp:8500/default/notification:latest
         env:
           - name: MQ_ID
             valueFrom:
